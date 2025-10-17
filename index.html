@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Part 1 - Basic HTML Forms</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="text-center">
+      
+      <a href="index.html">Part 1</a>
+      <a href="part2.html">Part 2</a>
+      <a href="part3.html">Part 3</a>
+    </nav>
+  </header>
+
+  
+
+  <h4>Task 0: Simple Contact Form</h4>
+  <form>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message"></textarea><br><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <hr>
+
+  <h4>Task 1: Form with HTML5 Validation</h4>
+  <form>
+    <label for="name2">Name:</label><br>
+    <input type="text" id="name2" name="name2" required maxlength="30"><br><br>
+    <label for="email2">Email:</label><br>
+    <input type="email" id="email2" name="email2" required><br><br>
+    <label for="message2">Message:</label><br>
+    <textarea id="message2" name="message2" required maxlength="200"></textarea><br><br>
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>

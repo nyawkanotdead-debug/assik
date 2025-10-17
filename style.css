@@ -1,0 +1,28 @@
+
+
+h2 {
+  margin-top: 50px;
+  color: #bc1900;
+}
+
+h4 {
+  margin-top: 20px;
+  color: #560a08;
+}
+ 
+header {
+  background-color: #bc1900;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+header a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
